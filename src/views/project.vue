@@ -1,0 +1,106 @@
+<template>
+    <div class="projects-section" id="Projects" style="background-color: rgb(22, 21, 21);">
+    <h2 class="text-uppercase" style="text-align: center; padding-top: 50px; color: white"><b>Projects</b></h2>
+
+  <div class="row">
+    <div class="row row-cols-1 row-cols-md-2 g-4" style="justify-content: center; justify-content: space-evenly; ">
+      <div class="card mb-3" style="max-width: 540px;">
+        <div data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000">  
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="@/assets/Images/Projects/Website.jpg" class="img-fluid rounded-start" alt="..." style="height: 220px; width: 100%;">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body" style="padding-top: 80px; text-align: center;">
+              <h3 class="card-title"><b>Multiple-page Website project</b></h3>
+              <a href="https://github.com/androidm16/Portfolio.git" target="_blank" class="card-link"><i class="bi bi-github" style="height: 50px; width: 100px;"></i></a>
+              <a href="https://vigilant-ramanujan-f97625.netlify.app" target="_blank" class="card-link"><i> <img src="https://i.postimg.cc/6Qbmf2KF/netlify.png" style="background-color: blue; height: 20px; width: 20px; border-radius: 10px;" alt="Netlify link"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="card mb-3" style="max-width: 540px;">
+        <div data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000">  
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="@/assets/Images/Projects/CityCard.jpg" class="img-fluid rounded-start" alt="..." style="height: 220px; width: 100%;">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body" style="padding-top: 80px; text-align: center;">
+              <h3 class="card-title"><b>Card Project</b></h3>            
+              <a href="https://github.com/androidm16/Cards.git" target="_blank" class="card-link"><i class="bi bi-github" style="height: 50px; width: 100px;"></i></a>
+              <a href="https://cranky-almeida-70879d.netlify.app" target="_blank" class="card-link"><i><img src="https://i.postimg.cc/6Qbmf2KF/netlify.png" style="background-color: blue; height: 20px; width: 20px; border-radius: 10px;" alt="Netlify link"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+</div>
+
+<div class="row">
+  <div class="row row-cols-1 row-cols-md-2 g-4" style="justify-content: center; justify-content: space-evenly; ">
+    <div class="card mb-3" style="max-width: 540px;">
+      <div data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="2000">  
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="@/assets/Images/Projects/MarioBro.jpg" class="img-fluid rounded-start" alt="..." style="height: 220px; width: 100%;">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body" style="padding-top: 80px; text-align: center;">
+            <h3 class="card-title"><b>Mario Bros. Animation Project</b></h3>       
+            <a href="https://github.com/androidm16/Portfolio.git" target="_blank" class="card-link"><i class="bi bi-github" style="height: 50px; width: 100px;"></i></a>
+            <a href="https://modest-joliot-4c9734.netlify.app" target="_blank" class="card-link"><i><img src="https://i.postimg.cc/6Qbmf2KF/netlify.png" style="background-color: blue; height: 20px; width: 20px; border-radius: 10px;" alt="Netlify link"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="card mb-3" style="max-width: 540px;">
+      <div data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="2000">  
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="@/assets/Images/Projects/Cards.jpg" class="img-fluid rounded-start" alt="..." style="height: 220px; width: 100%;">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body" style="padding-top: 80px; text-align: center;">
+            <h3 class="card-title"><b>Testimonial Cards project</b></h3>            
+            <a href="https://github.com/androidm16/Cards.git" target="_blank" class="card-link"><i class="bi bi-github" style="height: 50px; width: 100px;"></i></a>
+            <a href="https://clever-ardinghelli-6b2ed3.netlify.app" target="_blank" class="card-link"><i><img src="https://i.postimg.cc/6Qbmf2KF/netlify.png" style="background-color: blue; height: 20px; width: 20px; border-radius: 10px;" alt="Netlify link"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+</div>
+</div>
+</div>
+
+</template>
+
+<script>
+export default {
+
+}
+</script>
+
+<style>
+.projects-section{
+    height: 100vh;
+    width: 100%;
+    padding: 60px 0 40px;
+    z-index: 9607603737409743096770347437606;
+}
+#Projects{
+    height: 100vh;
+}
+</style>

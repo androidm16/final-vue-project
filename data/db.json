@@ -1,0 +1,12 @@
+{
+    "home": [
+        {"title": "Background picture", "id": 1, "details": "src"},
+        {"title": "Background picture", "id": 2, "details": "src"},
+        {"title": "Background picture", "id": 3, "details": "src"}
+    ],
+    "about": [
+        {"title": "Background picture", "id": 4, "details": "src"},
+        {"title": "Background picture", "id": 5, "details": "src"},
+        {"title": "Background picture", "id": 6, "details": "src"}
+    ]
+}
