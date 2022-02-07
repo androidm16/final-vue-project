@@ -1,10 +1,10 @@
 <template>
     <div class="projects-section" id="Projects" style="background-color: rgb(22, 21, 21);">
-    <h2 class="text-uppercase" style="text-align: center; padding-top: 50px; color: white"><b>Projects</b></h2>
+    <h2 class="tech" style="text-align: center; color: white; box-shadow: inset 0 -6px 0 #F5A281">Projects</h2>
 
   <div class="row">
     <div class="row row-cols-1 row-cols-md-2 g-4" style="justify-content: center; justify-content: space-evenly; ">
-      <div class="card mb-3" style="max-width: 540px;">
+      <div class="card mb-3" style="max-width: 510px;">
         <div data-aos="flip-left"
         data-aos-easing="ease-out-cubic"
         data-aos-duration="2000">  
@@ -22,7 +22,7 @@
         </div>
       </div>
       </div>
-      <div class="card mb-3" style="max-width: 540px;">
+      <div class="card mb-3" style="max-width: 510px;">
         <div data-aos="flip-left"
         data-aos-easing="ease-out-cubic"
         data-aos-duration="2000">  
@@ -45,7 +45,7 @@
 
 <div class="row">
   <div class="row row-cols-1 row-cols-md-2 g-4" style="justify-content: center; justify-content: space-evenly; ">
-    <div class="card mb-3" style="max-width: 540px;">
+    <div class="card mb-3" style="max-width: 510px;">
       <div data-aos="flip-left"
       data-aos-easing="ease-out-cubic"
       data-aos-duration="2000">  
@@ -63,7 +63,7 @@
       </div>
     </div>
     </div>
-    <div class="card mb-3" style="max-width: 540px;">
+    <div class="card mb-3" style="max-width: 510px;">
       <div data-aos="flip-left"
       data-aos-easing="ease-out-cubic"
       data-aos-duration="2000">  
@@ -82,6 +82,47 @@
     </div>
     </div>
 </div>
+
+  <div class="row">
+    <div class="row row-cols-1 row-cols-md-2 g-4" style="justify-content: center; justify-content: space-evenly; ">
+      <div class="card mb-3" style="max-width: 510px;">
+        <div data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000">  
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="@/assets/Images/Projects/BMI.png" class="img-fluid rounded-start" alt="..." style="height: 220px; width: 100%;">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body" style="padding-top: 80px; text-align: center;">
+              <h3 class="card-title"><b>BMI Calculator</b></h3>
+              <a href="https://github.com/androidm16/BMI-Calculator.git" target="_blank" class="card-link"><i class="bi bi-github" style="height: 50px; width: 100px;"></i></a>
+              <a href="https://gifted-brattain-45a77d.netlify.app" target="_blank" class="card-link"><i> <img src="https://i.postimg.cc/6Qbmf2KF/netlify.png" style="background-color: blue; height: 20px; width: 20px; border-radius: 10px;" alt="Netlify link"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="card mb-3" style="max-width: 510px;">
+        <div data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000">  
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="@/assets/Images/Projects/Ecommerce.png" class="img-fluid rounded-start" alt="..." style="height: 220px; width: 100%;">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body" style="padding-top: 80px; text-align: center;">
+              <h3 class="card-title"><b>Ecommerce Store</b></h3>            
+              <a href="https://github.com/androidm16/eCommerce-Store.git" target="_blank" class="card-link"><i class="bi bi-github" style="height: 50px; width: 100px;"></i></a>
+              <a href="https://inspiring-aryabhata-fc9d4e.netlify.app" target="_blank" class="card-link"><i><img src="https://i.postimg.cc/6Qbmf2KF/netlify.png" style="background-color: blue; height: 20px; width: 20px; border-radius: 10px;" alt="Netlify link"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+</div>
 </div>
 </div>
 
@@ -94,6 +135,13 @@ export default {
 </script>
 
 <style>
+.tech{
+  margin: auto;
+  width: 900px;
+  margin-top: 50px;
+  text-size-adjustcd: uppercase; 
+  font-weight: bold;
+}
 .projects-section{
     height: 100vh;
     width: 100%;
@@ -102,5 +150,7 @@ export default {
 }
 #Projects{
     height: 100vh;
+    overflow-y: auto;
 }
+
 </style>

@@ -5,8 +5,8 @@
   data-aos-easing="ease-out-cubic"
   data-aos-duration="2000">  
 
-  <div class="text-uppercase" style="margin: 100px; padding: auto; color: white">
-    <h2><b>Skills</b></h2>
+  <div class="text-uppercase font-weight-bolder" style="padding: auto; color: white; margin-top: 60px">
+    <h1 class="h1" style="box-shadow: inset 0 -6px 0 #F5A281; margin-bottom: 30px; color:white; font-weight: bold;"><b>Skills</b></h1>
   
 
   <div style="width:85%; margin: auto; color: white; padding-top: 40px;">
@@ -56,6 +56,11 @@ export default {
 </script>
 
 <style>
+.h1{
+  width: 85.4%;
+  text-align: center;
+  margin: auto;
+}
 .Skills{
     height: 100vh;
     width: 100%;

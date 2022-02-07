@@ -1,5 +1,8 @@
 <template>
 <div class="SignupForm"></div>
+<div>
+    <h1 class="h1" style="width: 50%">Contact Me</h1>
+</div>
 
   <form @submit.prevent="handleSubmit">
 <!-- The form that has input boxes for email, password and roles -->
@@ -15,13 +18,6 @@
             <option value="recruiter">Recruiter</option>
         </select>
 
-<!-- This is my input of Sills section that has an AddSkill to add a specific skill/s, as well as, with a @click to delete a skill when needed, just by clicking on the skill -->
-        <label>Skills:</label>
-        <input type="text" v-model="tempSkill" @keyup.alt="addSkill">
-        <div v-for="skill in skills" :key="skill" class="pill">
-            <span @click="deleteSkill(skill)">{{ skill }}</span>
-        </div>
-
 <!-- The terms & conditions section with a checkbox -->
         <div class="terms">
             <input type="checkbox" v-model="terms" required>
@@ -30,9 +26,25 @@
 
 <!-- Submission button to create account -->
         <div class="submit">
-            <button>Create an Account</button>
+            <button class="button"><h1>Submit</h1></button>
         </div>
   </form>
+
+   <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top" style="background-color: #F5A281; height: 30%;">
+  <div class="col-md-4 d-flex align-items-center">
+    <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+      <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+    </a>
+    <span class="text-muted">© Brought to you by Siyabonga Mkhosana</span>
+  </div>
+
+  <div class="widget" style="margin-right: 20px;">
+    <a target="blank" href="https://github.com/androidm16?tab=repositories"><i class="bi bi-github" style="font-size: 30px; color: black;"></i></a>
+    <a target="blank" href="https://www.linkedin.com/messaging/thread/new/"><i class="bi bi-linkedin" style="font-size: 30px; color: black;"></i></a>
+    <a target="blank" href="https://www.facebook.com/"><i class="bi bi-facebook" style="font-size: 30px; color: black;"></i></a>
+  </div>
+</footer>
+
 
 </template>
 
@@ -46,25 +58,10 @@ export default {
             password: '',
             role: '',
             terms: false,
-            tempSkill: '',
-            skills: [],
             passwordError: ''
         }
     },
     methods: {
-        addSkill(e) {
-            if (e.key === ',' && this.tempSkill) {
-                if (!this.skills.includes(this.tempSkill)) {
-                    this.skills.push(this.tempSkill)
-                }
-                this.tempSkill = ''
-            }
-        },
-        deleteSkill(skill) {
-            this.skills = this.skills.filter((item) => {
-                return skill !== item
-            })
-        },
         handleSubmit() {
             // validate password
             this.passwordError = this.password.length > 5 ? 
@@ -76,10 +73,19 @@ export default {
 
 <style>
 /* This is my styling for the whole Signup Form */
+.h1{
+    color: black;
+    box-shadow: inset 0 -6px 0 #F5A281;
+}
+.SignupForm{
+    background-color: burlywood;
+    margin: auto;
+    margin-bottom: 200px;
+}
     form {
-    max-width: 420px;
+    max-width: 600px;
     margin: 30px auto;
-    background: whitesmoke;
+    background: gray;
     text-align: left;
     padding: 40px;
     border-radius: 10px;
@@ -121,17 +127,19 @@ export default {
         color: #777;
         cursor: pointer;
     }
-    button {
+    .button {
         background: #0b6dff;
         border: 0;
         padding: 10px 20px;
         margin-top: 20px;
         color: white;
         border-radius: 20px;
+        width: 100%;
     }
     .submit {
         text-align: center;
     }
+    
     .error {
         color: #ff0062;
         margin-top: 10px;

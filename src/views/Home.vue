@@ -37,7 +37,7 @@ export default {
 /* Typewriter animation inspired by CSS Tricks*/
 .headings h1 {
     overflow: hidden; 
-    border-right: .15em solid black;
+    border-right: .15em solid #F5A281;
     white-space: nowrap;
     margin: 0 auto; 
     letter-spacing: .15em; 
