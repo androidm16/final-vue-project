@@ -23,9 +23,7 @@
                         <img width="180" height="180" src="@/assets/Images/Testimonials/Godwin1.jpg">
                     </div>
                     <div class="testimonial-content">
-                        <p>
-                            "Siyabonga shows a lot of promise in coding as a student. I enjoy when he gives his answers in class. I am excited about Siyabonga's potential and I can't wait to see how he will grow in the future."
-                        </p>
+                        <p> "Siyabonga shows a lot of promise in coding as a student. I enjoy when he gives his answers in class. I am excited about Siyabonga's potential and I can't wait to see how he will grow in the future."</p>
                     </div>
                     <div class="testimonial-meta">
                         <strong class="testimonial-name" itemprop="name">Mr Godwin Dzvapatsva</strong>
@@ -34,7 +32,7 @@
                 </div>
             </div>
 
-            <div class="col-md-4 testimonial-three-col">
+             <div class="col-md-4 testimonial-three-col">
                 <div class="testimonial-inner">
                     <div class="testimonial-image" itemprop="image">
                         <img width="180" height="180" src="@/assets/Images/Testimonials/Fatima1.jpg">
@@ -96,7 +94,7 @@
                     </div>
                     <div class="testimonial-content">
                         <p>
-                            Geat soul, focused and dedicated. A very good choices for any company culture because he can adapt to any setting.
+                            Great soul, focused and dedicated. A very good choices for any company culture because he can adapt to any setting.
                         </p>
                     </div>
                     <div class="testimonial-meta">
@@ -123,7 +121,7 @@
                         <span class="testimonial-job-title" itemprop="jobTitle">Colleague</span>
                     </div>
                 </div>
-            </div>
+            </div> 
         </div>
     </div>
 </section>
@@ -202,8 +200,23 @@
 
 <script>
 export default {
- 
-}
+  data() {
+    return {
+      Testimonials: null,
+    };
+  },
+  mounted() {
+    fetch("http://localhost:5000/testimonials")
+      .then((response) => {
+        console.log("hey");
+        return response.json();
+      })
+      .then((data) => {
+        console.log(data);
+        this.Testimonials = data;
+      });
+  },
+};
 </script>
 
 <style>
@@ -212,7 +225,7 @@ body{margin-top:20px;}
     background-color: #0cb4ce !important;
 }
 .section-medium {
-    padding: 15px 0px;
+    padding: 5px 0px;
 }
 .testimonial-four blockquote:hover::after, .section-arrow-primary-color.section-arrow--bottom-center:after {
     border-right-color: #0cb4ce;
@@ -273,7 +286,7 @@ body{margin-top:20px;}
     border-top: 1px solid #eaeaea;
 }
 .section-primary {
-    padding: 75px 0px;
+    padding: 1px;
 }
 section {
     position: relative;

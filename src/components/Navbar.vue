@@ -21,7 +21,7 @@
           <li><router-link to="/resume"><i class="bi bi-clipboard2-check-fill"></i>Resume</router-link></li>
           <li><router-link to="/skills"><i class="bi bi-bar-chart-line-fill"></i>Skills</router-link></li>
           <li><router-link to="/project"><i class="bi bi-kanban-fill"></i>Project</router-link></li>
-          <li><router-link to="/Testimonial"><i class="bi bi-people-fill"></i>Testimonial</router-link></li>
+          <li><router-link to="/Testimonial"><i class="bi bi-people-fill"></i>Testimonials</router-link></li>
           <li><router-link to="/SignupForm"><i class="bi bi-telephone-inbound-fill"></i>Contact</router-link></li>
         </ul>
       </nav>

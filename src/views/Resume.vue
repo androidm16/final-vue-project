@@ -8,7 +8,9 @@
             style="
               box-shadow: inset 0 -6px 0 #f5a281;
               color: white;
-              margin-bottom: 30px;">
+              margin-bottom: 30px;
+            "
+          >
             Resume
           </h1>
           <h5 class="p-tag1">
@@ -21,54 +23,87 @@
       <div class="row">
         <div class="col">
           <div class="timeline-steps aos-init aos-animate" data-aos="fade-up">
-            <div
-              class="timeline-step">
+            <div class="timeline-step">
               <div
                 class="timeline-content"
                 data-toggle="popover"
                 data-trigger="hover"
                 data-placement="top"
-                title=""
-                data-content="And here's some amazing content. It's very engaging. Right?"
-                data-original-title="2003">
-                <div class="inner-circle" v-for="(resume, index) in Resumes" :key="index">
-                <p class="h6 mt-3 mb-1">{{ resume.year }}</p>
-                <p class="p-tag mb-0 mb-lg-0">{{ resume.institution }}</p>
+                title="Matriculated with a Bachelor's degree"
+                data-content="I started high school in 2010 and finished in 2013."
+                data-original-title="2010"
+              >
+                <div class="inner-circle"></div>
+                <div data-aos="zoom-in"></div>
+                <p class="h6 mt-3 mb-1">2010-2013</p>
+                <p class="p-tag mb-0 mb-lg-0">Peak View Secondary School</p>
               </div>
             </div>
-            <!-- <div class="timeline-step">
-                    <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="2004">
-                        <div class="inner-circle"></div>
-                        <p class="h6 mt-3 mb-1">July 2014-Jan 2015</p>
-                        <p class="p-tag mb-0 mb-lg-0">Sonke Gender Justice</p>
-                    </div>
-                </div>
-                <div class="timeline-step">
-                    <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="2005">
-                        <div class="inner-circle"></div>
-                        <p class="h6 mt-3 mb-1">March 2018-Sep 2018</p>
-                        <p class="p-tag mb-0 mb-lg-0">Meerkat Debt Councellors</p>
-                    </div>
-                </div>
-                <div class="timeline-step">
-                    <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="2010">
-                        <div class="inner-circle"></div>
-                        <p class="h6 mt-3 mb-1">May 2021-Sep 2021</p>
-                        <p class="p-tag mb-0 mb-lg-0">A1 Financial Brokers</p>
-                    </div>
-                </div>
-                <div class="timeline-step mb-0">
-                    <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="2020">
-                        <div class="inner-circle"></div>
-                        <p class="h6 mt-3 mb-1">Sep 2021-</p>
-                        <p class="p-tag mb-0 mb-lg-0">Life Choice Coding Academy</p>
-                    </div>
-                </div> -->
+            <div class="timeline-step">
+              <div
+                class="timeline-content"
+                data-toggle="popover"
+                data-trigger="hover"
+                data-placement="top"
+                title="My first job and through the Youth Leadership programme of the University of the Western Cape, in partnership with the City of Cape Town."
+                data-content="A jolly good experience helping communities, it didn't even feel like a job."
+                data-original-title="2004"
+              >
+                <div class="inner-circle"></div>
+                <p class="h6 mt-3 mb-1">July 2014-Jan 2015</p>
+                <p class="p-tag mb-0 mb-lg-0">Sonke Gender Justice</p>
+              </div>
+            </div>
+            <div class="timeline-step">
+              <div
+                class="timeline-content"
+                data-toggle="popover"
+                data-trigger="hover"
+                data-placement="top"
+                title="The work culture of this company is fantastic, the professionalism as well. I learnt a lot working as a Debt Counselor, that is where I learnt much communication skills."
+                data-content="That was the beginning of my financial independence."
+                data-original-title="2005"
+              >
+                <div class="inner-circle"></div>
+                <p class="h6 mt-3 mb-1">March 2018-Sep 2018</p>
+                <p class="p-tag mb-0 mb-lg-0">Meerkat Debt Counselors</p>
+              </div>
+            </div>
+            <div class="timeline-step">
+              <div
+                class="timeline-content" 
+                data-toggle="popover"
+                data-trigger="hover"
+                data-placement="top"
+                title="A1 Brokers helped me unlock my potential in the workspace."
+                data-content="And here's some amazing content. It's very engaging. Right?"
+                data-original-title="2010"
+              >
+                <div class="inner-circle"></div>
+                <p class="h6 mt-3 mb-1">May 2021-Sep 2021</p>
+                <p class="p-tag mb-0 mb-lg-0">A1 Financial Brokers</p>
+              </div>
+            </div>
+            <div class="timeline-step mb-0">
+              <div
+                class="timeline-content"
+                data-toggle="popover"
+                data-trigger="hover"
+                data-placement="top"
+                title="Life Choices Coding Academy is opening wider doors for young web developers, I am proud to be a part of this journey."
+                data-content="Web Development"
+                data-original-title="2020"
+              >
+                <div class="inner-circle"></div>
+                <p class="h6 mt-3 mb-1">Sep 2021-</p>
+                <p class="p-tag mb-0 mb-lg-0">Life Choice Coding Academy</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+
     <!-- <div class="Resume" id="Resume">
     <div data-aos="flip-left"
     data-aos-easing="ease-out-cubic"
