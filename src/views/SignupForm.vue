@@ -66,14 +66,14 @@ export default {
   data() {
     return {
       email: "",
-      password: "",
       role: "",
+      message: "",
       terms: false,
     };
   },
   methods: {
     handleSubmit() {
-      fetch("https://web-server-exercise.herokuapp.com/contact", {
+      fetch('https://web-server-exercise.herokuapp.com/contact', {
         // mode: "no-cors",
         method: "POST",
         body: JSON.stringify({
