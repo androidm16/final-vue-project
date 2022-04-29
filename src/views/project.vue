@@ -246,6 +246,7 @@
           </div>
         </div>
       </div>
+    </div>
 
       <div class="row">
         <div
@@ -361,8 +362,7 @@
           </div>
         </div>
       </div>
-    </div>
-  </div>
+    </div>  
 </template>
 
 <script>
@@ -385,6 +385,7 @@ export default {};
 }
 #Projects {
   height: 100vh;
-  overflow-x: auto;
+  overflow-x: hidden;
+  --mdb-gutter-x: 1rem important;
 }
 </style>

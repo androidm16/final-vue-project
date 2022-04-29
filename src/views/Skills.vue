@@ -8,7 +8,8 @@
   <div class="text-uppercase font-weight-bolder" style="padding: auto; color: white; margin-top: 60px">
     <h1 class="h1" style="box-shadow: inset 0 -6px 0 #F5A281; margin-bottom: 30px; color:white; font-weight: bold;"><b>Skills</b></h1>
   
-
+  <div class="row row-cols-2">
+    <div class="col">
   <div style="width:85%; margin: auto; color: white; padding-top: 40px;">
     <p>HTML</p>
     <div class="progress" style="height: 30px;">
@@ -20,12 +21,21 @@
       <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="60%" aria-valuemin="60" aria-valuemax="100" style="width: 60%">60%</div>
     </div><br>
 
+    <p style="color: white;">Firebase</p>
+    <div class="progress" style="height: 30px;">
+      <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="90%" aria-valuemin="90" aria-valuemax="100" style="width: 85%">85%</div>
+    </div><br>
     
     <p style="color: white;">JAVASCRIPT</p>
     <div class="progress" style="height: 30px;">
       <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="45%" aria-valuemin="45" aria-valuemax="100" style="width: 45%">45%</div>
     </div><br>
+  </div>
+    </div>
 
+  <div class="row row-cols-8">
+  <div class="col">
+    <div style="width:85%; margin: auto; color: white; padding-top: 40px;">
     <p style="color: white;">Git</p>
     <div class="progress" style="height: 30px;">
       <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="90%" aria-valuemin="90" aria-valuemax="100" style="width: 90%">90%</div>
@@ -36,11 +46,19 @@
       <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="90%" aria-valuemin="90" aria-valuemax="100" style="width: 90%">90%</div>
     </div><br>
 
+    <p style="color: white;">Vue JS</p>
+    <div class="progress" style="height: 30px;">
+      <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="90%" aria-valuemin="90" aria-valuemax="100" style="width: 70%">70%</div>
+    </div><br>
+
     <p style="color: white;">SQL Database</p>
     <div class="progress" style="height: 30px;">
       <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="60%" aria-valuemin="60" aria-valuemax="100" style="width: 60%">60%</div>
     </div>
 
+  </div>
+  </div>
+  </div>
   </div>
   </div>
 </div>
@@ -140,5 +158,8 @@ body{margin-top:20px;}
     width: 100%;
     overflow-x: hidden;
     justify-content: center;
+}
+.container1{
+  overflow-x: hidden;
 }
 </style>

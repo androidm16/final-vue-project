@@ -7,7 +7,7 @@
             class="text-uppercase font-weight-bolder"
             style="
               box-shadow: inset 0 -6px 0 #f5a281;
-              color: white;
+              color: black;
               margin-bottom: 30px;
             "
           >
@@ -164,7 +164,7 @@
       style="text-align: center; margin-top: 50px"
     >
       <a
-        href="https://resume-example.com/builder/resume/02c62779-dcaa-41f7-8009-9ee21b644039/preview"
+        href="https://i.postimg.cc/c4WLpvpd/Blue-and-Black-Modern-Resume.png"
         target="blank"
         class="btn extra"
         style="border-color: blue; background-color: #f5a281; font-weight: bold"
@@ -276,15 +276,15 @@ body {
   z-index: 9478470375037507094755085370953;
 }
 .p-tag1 {
-  color: white;
+  color: black;
   font-weight: bolder;
 }
 .p-tag {
-  color: white;
+  color: black;
   font-weight: bold;
 }
 .single-section {
-  background-color: gray;
+  background-color: rgb(250, 244, 244);
   height: 100vh;
   overflow-x: auto;
 }
